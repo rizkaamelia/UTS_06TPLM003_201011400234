@@ -10,6 +10,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        fontFamily: 'Nunito',
+      ),
       home: Scaffold(
         appBar: AppBar(
           title: const Text("Rizka Amelia Lestari"),
@@ -26,7 +29,6 @@ class MainApp extends StatelessWidget {
                       child: const Text(
                         'Shoes',
                         style: TextStyle(
-                          fontFamily: 'Nunito',
                           fontSize: 30,
                           fontWeight: FontWeight.w700,
                         ),
